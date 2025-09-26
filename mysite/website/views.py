@@ -7,7 +7,6 @@ def index_view(request):
     return render(request,'index.html')
 
 def about_view(request):
-    return HttpResponse('aoub')
-
+    return render(request,'about.html')
 def contact_view(request):
     return HttpResponse('contact') 

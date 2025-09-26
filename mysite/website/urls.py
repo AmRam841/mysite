@@ -19,8 +19,8 @@ from django.urls import path
 from django.urls import include
 from website.views import *
 urlpatterns = [
-    path('' , home_view),
-    path('home' , index_view),
-    path('about' , about_view),
+    path('' , index_view),
+    path('index.html' , index_view),
+    path('about.html' , about_view),
     path('contact' , contact_view)
 ]
